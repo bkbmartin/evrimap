@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url('./fonts/helvetica/helvetica.eot');
+    src: url('./fonts/helvetica/helvetica.eot') format('embedded-opentype'),
+         url('./fonts/helvetica/helvetica.woff2') format('woff2'),
+         url('./fonts/helvetica/helvetica.woff') format('woff'),
+         url('./fonts/helvetica/helvetica.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url('./fonts/helvetica/helvetica-bold.eot');
+    src: url('./fonts/helvetica/helvetica-bold.eot') format('embedded-opentype'),
+         url('./fonts/helvetica/helvetica-bold.woff2') format('woff2'),
+         url('./fonts/helvetica/helvetica-bold.woff') format('woff'),
+         url('./fonts/helvetica/helvetica-bold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: "Base Neue Trial Bold";
+    src: url('./fonts/neue/base-neue-trial-bold.eot');
+    src: url('./fonts/neue/base-neue-trial-bold.eot') format('embedded-opentype'),
+         url('./fonts/neue/base-neue-trial-bold.woff2') format('woff2'),
+         url('./fonts/neue/base-neue-trial-bold.woff') format('woff'),
+         url('./fonts/neue/base-neue-trial-bold.ttf') format('truetype');
+  }
+
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    font-size: 1rem;
+}
+    
+#map { 
+    position: absolute;
+    top: 56px;
+    bottom: 0;
+    width: 100%;
+    height: calc(100vh - 56px);
+}
+    
+i { 
+    font-size: large; 
+}
+    
+td { 
+    vertical-align: middle; 
+}
+
+#csv-file-upload {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.btn-outline-primary {
+    color: #F77F00;
+    border-color: #F77F00;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+    border-color: #F77F00 !important;
+    background-color: #F77F00 !important;
+}
+
+.btn-outline-danger {
+    color: #003049;
+    border-color: #003049;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:active {
+    border-color: #003049 !important;
+    background-color: #003049 !important;
+}
+
+.btn-outline-success {
+    color: #D62828;
+    border-color: #D62828;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:active {
+    border-color: #D62828 !important;
+    background-color: #D62828 !important;
+}
